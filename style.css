@@ -26,7 +26,6 @@ div{
 .botao-menu{
     height: 50px;
     margin: 50px 0 10px 0;
-    cursor: pointer;
 }
 
 .botao-menu span{
@@ -43,12 +42,6 @@ div{
     border-bottom: 1px solid black;
     display: inline-block;
     width: 300px;
-    transition: height .5s ease;
-    overflow: hidden;
-}
-
-.menu:not(.active){
-    display: none;
 }
 
 .menu nav{
